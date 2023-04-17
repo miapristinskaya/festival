@@ -12,10 +12,18 @@ nav {
   display: inline;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .menu-list {
   display: inherit;
 }
 
 .menu-item {
   display: inherit;
+}
+
+.menu-button {
 }
