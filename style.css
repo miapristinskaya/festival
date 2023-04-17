@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-  display: inline;
+  display: inline-block;
 }
 
 a {
@@ -17,13 +17,15 @@ a {
   text-decoration: none;
 }
 
-.menu-list {
-  display: inherit;
-}
-
+.menu-list,
 .menu-item {
   display: inherit;
+  font-size: 20px;
 }
 
 .menu-button {
+  padding: 0.7em 1.3em;
+  background-color: #7ae5fd;
+  border-radius: 30px;
+  text-transform: uppercase;
 }
