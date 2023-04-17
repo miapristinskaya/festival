@@ -4,6 +4,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.site-header {
+  width: 100%;
+  position: fixed;
+}
+
 .logo {
   width: 65px;
 }
