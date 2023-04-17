@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
 
 body {
   font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }
 
 .site-header {
@@ -11,6 +12,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  z-index: 100;
 }
 
 .logo {
@@ -26,12 +28,12 @@ a {
 .menu-list {
   display: flex;
   flex-direction: row;
-  font-size: 20px;
+  font-size: 0.9rem;
   align-items: center;
 }
 
 .menu-item {
-  margin-left: 20px;
+  margin-left: 3em;
 }
 
 .menu-button {
@@ -45,4 +47,30 @@ a {
   width: 100vw;
   height: 100vh;
   background-color: #f1fdff;
+  position: relative;
+}
+
+.first-screen-heading {
+  font-size: 4.5rem;
+  color: #9ad2de;
+  font-weight: 800;
+  text-transform: uppercase;
+  position: absolute;
+  top: 8rem;
+}
+
+.first-screen-text {
+  position: absolute;
+  top: 25rem;
+}
+
+.first-screen-lines {
+  position: absolute;
+  left: 17em;
+}
+
+.first-screen-photo {
+  position: absolute;
+  left: 10em;
+  bottom: 0em;
 }
