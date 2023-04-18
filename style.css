@@ -2,22 +2,18 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
 }
 
 .site-header {
   width: 100%;
+  box-sizing: border-box;
+  padding: 6.25rem;
   position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-}
-
-.logo {
-  width: 65px;
-  height: 65px;
 }
 
 a {
@@ -28,49 +24,53 @@ a {
 .menu-list {
   display: flex;
   flex-direction: row;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   align-items: center;
 }
 
 .menu-item {
-  margin-left: 3em;
+  margin-left: 3.5rem;
 }
 
 .menu-button {
-  padding: 0.7em 1.3em;
+  padding: 1.2rem 2rem;
   background-color: #7ae5fd;
-  border-radius: 30px;
+  border-radius: 2rem;
   text-transform: uppercase;
 }
 
 .first-screen {
   width: 100vw;
-  height: 100vh;
+  height: 45.5rem;
   background-color: #f1fdff;
   position: relative;
 }
 
 .first-screen-heading {
-  font-size: 4.5rem;
+  font-size: 5.5rem;
   color: #9ad2de;
   font-weight: 800;
   text-transform: uppercase;
   position: absolute;
-  top: 8rem;
+  left: 6.25rem;
+  top: 12.5rem;
 }
 
 .first-screen-text {
   position: absolute;
-  top: 25rem;
+  font-size: 1.2rem;
+  left: 6.25rem;
+  top: 33rem;
 }
 
 .first-screen-lines {
   position: absolute;
-  left: 17em;
+  right: 0;
+  top: 0;
 }
 
 .first-screen-photo {
   position: absolute;
-  left: 10em;
-  bottom: 0em;
+  right: 0;
+  height: 100%;
 }
