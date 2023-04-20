@@ -4,6 +4,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.hamburger-icon {
+  display: none;
+}
+
 .site-header {
   width: 100%;
   box-sizing: border-box;
@@ -51,12 +55,16 @@ a {
   text-transform: uppercase;
   margin-left: 6.25rem;
   padding-top: 12.5rem;
+  position: relative;
+  z-index: 50;
 }
 
 .first-screen-text {
   font-size: 1.2rem;
   margin-left: 6.25rem;
   margin-top: 3rem;
+  position: relative;
+  z-index: 50;
 }
 
 .first-screen-lines {
@@ -69,4 +77,23 @@ a {
   position: absolute;
   right: 0;
   height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .logo {
+    display: none;
+  }
+
+  .menu-list {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: block;
+    width: 60px;
+  }
+
+  .site-header {
+    justify-content: flex-end;
+  }
 }
